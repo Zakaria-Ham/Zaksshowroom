@@ -1,0 +1,152 @@
+.NavbarHeader {
+  background-color: black;
+  padding: 1%;
+  height: 7%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+
+.navItem {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navImg {
+  height: 50px;
+  width: auto;
+  position: relative;
+  z-index: 2;
+}
+
+#dev {
+  height: 60px;
+  width: 50px;
+}
+
+#design {
+  height: 45px;
+}
+
+#devbox::before {
+  content: "";
+  position: absolute;
+  width: 160%;
+  height: 160%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: radial-gradient(circle, #007eff 0%, transparent 70%);
+  filter: blur(15px);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  z-index: 1;
+}
+
+#editingbox::before {
+  content: "";
+  position: absolute;
+  width: 160%;
+  height: 160%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: radial-gradient(circle, #ff0015 0%, transparent 70%);
+  filter: blur(15px);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  z-index: 1;
+}
+
+#designbox::before {
+  content: "";
+  position: absolute;
+  width: 170%;
+  height: 170%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: radial-gradient(circle, #00ffdd 0%, transparent 70%);
+  filter: blur(15px);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  z-index: 1;
+}
+
+#devbox::before {
+  background: radial-gradient(circle, #007eff 0%, transparent 70%);
+}
+#devbox:hover::before {
+  opacity: 1;
+}
+#editingbox:hover::before {
+  opacity: 1;
+}
+#designbox:hover::before {
+  opacity: 1;
+}
+
+/*Pc Screens*/
+@media (max-width: 2560px) {
+  .NavbarHeader {
+    height: 95px;
+    gap: 30px;
+  }
+
+  .navImg {
+    height: 60px;
+  }
+}
+
+@media (max-width: 1920px) {
+  .NavbarHeader {
+    height: 80px;
+    gap: 25px;
+  }
+
+  .navImg {
+    height: 50px;
+  }
+}
+
+@media (max-width: 1600px) {
+  .NavbarHeader {
+    height: 70px;
+    gap: 20px;
+  }
+
+  .navImg {
+    height: 42px;
+  }
+}
+
+@media (max-width: 1280px) {
+  .NavbarHeader {
+    height: 60px;
+    gap: 12px;
+  }
+
+  .navImg {
+    height: 34px;
+  }
+}
+
+/*Mobile Screens*/
+@media (min-width: 768px) and (max-width: 1024px) {
+
+}
+
+@media (min-width: 480px) and (max-width: 767px) {
+
+}
+
+@media (min-width: 360px) and (max-width: 479px) {
+
+}
+
+@media (max-width: 359px) {
+
+}
