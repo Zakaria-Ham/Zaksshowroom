@@ -1,57 +1,57 @@
 @font-face {
   font-family: "BCK-YoutubeBlack";
-  src: url("../fonts/BCK_YOUTUBEBLACK.OTF") format("opentype");
+  src: url("./fonts/BCK_YOUTUBEBLACK.OTF") format("opentype");
 }
 
 @font-face {
   font-family: "GC-Quark";
-  src: url("../fonts/GC-QUARK.OTF") format("opentype");
+  src: url("./fonts/GC-QUARK.OTF") format("opentype");
 }
 
 @font-face {
   font-family: "Impact";
-  src: url("../fonts/IMPACT.TTF") format("truetype");
+  src: url("./fonts/IMPACT.TTF") format("truetype");
 }
 
 @font-face {
   font-family: "Sonko";
   font-weight: 900;
-  src: url("../fonts/SONKO-BLACK.TTF") format("truetype");
+  src: url("./fonts/SONKO-BLACK.TTF") format("truetype");
 }
 
 @font-face {
   font-family: "Sonko";
   font-weight: 700;
-  src: url("../fonts/SONKO-BOLD.TTF") format("truetype");
+  src: url("./fonts/SONKO-BOLD.TTF") format("truetype");
 }
 
 @font-face {
   font-family: "Sonko";
   font-weight: 300;
-  src: url("../fonts/SONKO-LIGHT.TTF") format("truetype");
+  src: url("./fonts/SONKO-LIGHT.TTF") format("truetype");
 }
 
 @font-face {
   font-family: "Sonko";
   font-weight: 500;
-  src: url("../fonts/SONKO-MEDIUM.TTF") format("truetype");
+  src: url("./fonts/SONKO-MEDIUM.TTF") format("truetype");
 }
 
 @font-face {
   font-family: "Sonko";
   font-weight: 400;
-  src: url("../fonts/SONKO-REGULAR.TTF") format("truetype");
+  src: url("./fonts/SONKO-REGULAR.TTF") format("truetype");
 }
 
 @font-face {
   font-family: "Sonko";
   font-weight: 100;
-  src: url("../fonts/SONKO-THIN.TTF") format("truetype");
+  src: url("./fonts/SONKO-THIN.TTF") format("truetype");
 }
 
 @font-face {
   font-family: "Sylfaen";
-  src: url("../fonts/SYLFAEN.TTF") format("truetype");
+  src: url("./fonts/SYLFAEN.TTF") format("truetype");
 }
 body{
   margin: 0;
